@@ -1,0 +1,40 @@
+body {
+  display: flex;
+}
+
+aside {
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #06f;
+  display: block;
+  padding: 1rem 3rem;
+  border-radius: .25rem;
+}
+
+a:hover {
+  background-color: #efefef;
+}
+
+main {
+  padding: 1rem;
+  flex-grow: 1;
+  background-color: #fafafa;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    flex-direction: column;
+  }
+
+  aside {
+    display: flex;
+    justify-content: center;
+  }
+
+  a {
+    padding: 0.75rem 1rem;
+  }
+}
