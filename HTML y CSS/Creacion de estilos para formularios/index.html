@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up | Dribbble</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form>
+      <header>
+        <h1>Sign up to Dribbble</h1>
+        <menu>
+          <button class="google-btn">
+            <div class="google-icon">
+              <img src="./google-logo.svg" alt="google logo" />
+            </div>
+            <span>Registrarse con Google</span>
+          </button>
+          <button class="twitter-btn">
+            <img src="./twitter-logo.svg" alt="twitter logo" />
+          </button>
+        </menu>
+      </header>
+      <div class="separator"></div>
+      <article>
+        <div class="personal-fields">
+          <label>
+            Name
+            <input type="text" class="input" />
+          </label>
+          <label>
+            Username
+            <input type="text" class="input" />
+          </label>
+        </div>
+        <label>
+          Email
+          <input type="text" class="input" />
+        </label>
+        <label>
+          Password
+          <input type="password" class="input" placeholder="6+ characters" />
+        </label>
+      </article>
+      <footer>
+        <label class="terms">
+          <input type="checkbox" />
+          <p>
+            Creating an account means you’re okay with our
+            <a target="_blank" href="#/#">Terms of Service</a>,
+            <a target="_blank" href="#/#">Privacy Policy</a>, and our default
+            <a target="_blank" href="#/#">Notification Settings</a>.
+          </p>
+        </label>
+        <button type="submit">Create Account</button>
+        <p class="recaptcha-terms">
+          This site is protected by reCAPTCHA and the Google
+          <a href="#/#">Privacy Policy</a> and
+          <a href="#/#">Terms of Service</a>
+          apply.
+        </p>
+      </footer>
+    </form>
+  </body>
+</html>
