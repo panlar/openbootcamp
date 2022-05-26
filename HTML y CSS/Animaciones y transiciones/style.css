@@ -1,0 +1,25 @@
+body {
+  padding: 4rem;
+}
+
+button {
+  padding: 0.75rem 1rem;
+
+  font-size: 1rem;
+  letter-spacing: 1px;
+
+  border-radius: 0.25rem;
+  background-color: #eee;
+  border: 1px solid #ddd;
+
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  box-shadow: 0 10px 10px #0003;
+  background-color: #001;
+  color: white;
+  transform: translateY(-5px);
+}
