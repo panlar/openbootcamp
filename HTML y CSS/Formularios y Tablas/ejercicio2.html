@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercicio 02/2 - Tablas en HTML</title>
+    <style>
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+
+        table, td, th{
+            border: 1px solid #777;
+        }
+
+        td, th {
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    
+    <table>
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Año de publicacion</th>
+                <th>Ver en Amazon</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Coraline</td>
+                <td>Neil Gaiman</td>
+                <td>2012</td>
+                <td><a href="https://www.amazon.com/-/es/Neil-Gaiman/dp/0380807343/ref=sr_1_3?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=AFP88QMDC6RH&keywords=coraline&qid=1653542122&sprefix=coraline%2Caps%2C184&sr=8-3">Ver en Amazon</a></td>
+            </tr>
+            <tr>
+                <td>El Principito</td>
+                <td>Antoine de Saint-Exupéry</td>
+                <td>2001</td>
+                <td><a href="https://www.amazon.com/-/es/Antoine-Saint-Exup%C3%A9ry/dp/0156013924/ref=sr_1_1?crid=RV8VUBBJY93I&keywords=el+principito&qid=1653542334&s=books&sprefix=el+principito%2Cstripbooks%2C163&sr=1-1">Ver en Amazon</a></td>
+            </tr>
+            <tr>
+                <td>A través de mi ventana</td>
+                <td>Ariana Godoy</td>
+                <td>2022</td>
+                <td><a href="https://www.amazon.com/-/es/Ariana-Godoy/dp/8420451916/ref=sr_1_1?crid=6YJFKQG6JSHH&keywords=a+traves+de+mi+ventana&qid=1653542491&s=books&sprefix=a+traves+de+mi+ventana%2Cstripbooks-intl-ship%2C123&sr=1-1">Ver en Amazon</a></td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
